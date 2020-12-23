@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #007765;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 19px 50px;
+}
+
+.header-inner__list {
+  display: flex;
+  list-style-type: none;
+}
+
+.header-inner__list-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: 23px;
+}
+
+.icon {
+  position: relative;
+}
+
+.icon::before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 29px;
+  background-color: #FFFFFF;
+  top: 0;
+  left: -16px;
+}
+
+.jambotron {
+  background-image: url('../img/image.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0 160px 0;
+}
+
+.title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.problem {
+  background-color: #EEEEEE;
+  padding: 48px 0 42px 0;
+}
+
+.problem__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  margin-bottom: 16px;
+}
+
+.desc {
+  text-align-last: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.desc span {
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url('../img/hero.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 128px 0 127px 0;
+}
+
+.hero-subtitle {
+  display: block;
+  width: 893px;
+  margin: 0 auto;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+
+.ppc {
+  background-color: #FFFFFF;
+  padding: 48px 0 52px 0;
+}
+
+.ppc-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  margin-bottom: 16px;
+}
+
+.ppc-item {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 35px;
+}
+
+.ppc-item img {
+  margin-right: 48px;
+}
+
+.ppc-item__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.ppc-item__title span {
+  display: block;
+}
+
+.ppc-subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  margin-bottom: 42px;
+  margin-right: 50px;
+}
+
+.team {
+  background-color: #EEEEEE;
+  padding: 58px 0 84px 0;
+}
+
+.team-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  margin-bottom: 32px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-member {
+  /* background-color: aquamarine; */
+  display: block;
+  padding: 24px 91px 25px 91px;
+}
+
+.card-member__title {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+  color: #007765;
+}
+
+.card-member__subtitle {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+}
+
+.footer {
+  background-color: #333333;
+  padding: 50px 0 62px 0;
+}
+
+.footer-title {
+  width: 540px;
+  display: block;
+  margin: 0 auto;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
